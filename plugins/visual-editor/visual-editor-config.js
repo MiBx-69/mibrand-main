@@ -8,7 +8,7 @@ export const POPUP_STYLES = `
   border: 1px solid #4a5568;
   border-radius: 16px;
   padding: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 4px  rgba(0,0,0,0.2);
   flex-direction: column;
   gap: 10px;
   display: none;
