@@ -34,7 +34,7 @@ const Hero = () => {
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-6 tracking-tight">
               <span className="text-gradient">Your Digital Growth Partner</span>
               <br />
-              <span className="text-foreground">Expert SEO, Web Design & Social Media Services in Bangladesh</span>
+              <span className="text-foreground">Expert SEO & Digital Marketing Services in Bangladesh</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-10">
               Our Sreemangal-based team uses powerful local SEO and creative advertising to make your brand impossible to ignore.
