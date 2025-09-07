@@ -15,7 +15,6 @@ const Footer = lazy(() => import('@/components/sections/Footer'));
 const HomePage = lazy(() => import('@/pages/HomePage'));
 const ServicesPage = lazy(() => import('@/pages/ServicesPage'));
 const CaseStudiesPage = lazy(() => import('@/pages/CaseStudiesPage'));
-const PricingPage = lazy(() => import('@/pages/PricingPage'));
 const FaqPage = lazy(() => import('@/pages/FaqPage'));
 const ContactPage = lazy(() => import('@/pages/ContactPage'));
 const PrivacyPolicyPage = lazy(() => import('@/pages/PrivacyPolicyPage'));
@@ -101,7 +100,6 @@ const [darkMode, setDarkMode] = useState(() => {
               {/* === END UPDATED ROUTES === */}
 
               <Route path="/case-studies" element={<CaseStudiesPage />} />
-              <Route path="/pricing" element={<PricingPage />} />
               <Route path="/blog" element={<BlogRedirect />} />
               <Route path="/faq" element={<FaqPage />} />
               <Route path="/contact" element={<ContactPage />} />

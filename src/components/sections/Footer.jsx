@@ -59,7 +59,6 @@ const Footer = () => {
               <li><NavLink to="/" className="text-muted-foreground hover:text-primary transition-colors">Home</NavLink></li>
               <li><NavLink to="/services" className="text-muted-foreground hover:text-primary transition-colors">Services</NavLink></li>
               <li><NavLink to="/case-studies" title="Case Studies of MiBrand" className="text-muted-foreground hover:text-primary transition-colors">Case Studies</NavLink></li>
-              <li><NavLink to="/pricing" title="Best SEO service pricing from MiBrand" className="text-muted-foreground hover:text-primary transition-colors">Pricing</NavLink></li>
             </ul>
           </div>
 

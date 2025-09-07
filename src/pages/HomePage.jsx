@@ -4,7 +4,6 @@ import Hero from '@/components/sections/Hero';
 import About from '@/components/sections/About';
 import Services from '@/components/sections/Services';
 import CaseStudies from '@/components/sections/CaseStudies';
-import Pricing from '@/components/sections/Pricing';
 import { services, caseStudies, packages } from '@/data/content.jsx';
 
 const HomePage = () => {
@@ -19,7 +18,6 @@ const HomePage = () => {
         <About />
         <Services services={services} />
         <CaseStudies caseStudies={caseStudies} />
-        <Pricing packages={packages} />
       </main>
     </PageLayout>
   );

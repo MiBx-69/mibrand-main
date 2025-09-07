@@ -14,9 +14,8 @@ const navigationItems = [
     subItems: services.map(s => ({ path: s.link, label: s.title, title: s.title }))
   },
   { path: '/case-studies', label: 'Case Studies', title: 'Case Studies of MiBrand' },
-  { path: '/pricing', label: 'Pricing', title: 'Best SEO service pricing from MiBrand' },
   { path: '/faq', label: 'FAQ', title: 'Frequently asked questions – MiBrand' },
-  { path: '/contact', label: 'Contact', title: 'Contact the best SEO service provider – MiBrand' }
+  { path: '/contact', label: 'Contact', title: 'Contact the best Digital marketing service provider – MiBrand' }
 ];
 
 const Header = ({ darkMode, toggleDarkMode }) => {
